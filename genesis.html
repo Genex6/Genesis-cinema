@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genesis cinema</title>
+    <link rel="stylesheet" href="/genesis.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="body">
+    
+    <header>
+        <div class="logo">
+            <img  class="logo" src="/LOGO.png" alt=""></div>
+        <div class="list">
+            <ul>
+                <a href="#" ><li onfocus="focus" id="hoMe">HOME </li></a>
+                <div class="dropdown">
+                    <a href="#"><li class="dropbtn">MOVIE LOCATION &#10836</li></a>
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="#link3">MARYLAND MALL LAGOS</a>
+                      <a href="#link1">FESTIVAL MALL FESTAC LAGOS</a>
+                      <a href="#link2">GDC BENIN CITY</a>
+                      <a href="#link3">WERRI DELTA MALL EFFURUN</a>
+                      <a href="#link1">CEDDI PLAZA ABUJA</a>
+                      <a href="#link2">FREEDOM WAY LEKKI</a>
+                      <a href="#link3">GENESIS CENTER PORT HARCOURT</a>
+                      <a href="#link1">ASABA MALL DELTA STATE</a>
+                      <a href="#link2">OWERRI MALL OWERRI</a>
+                      <a href="#link3">ABIA MALL UMUAHIA</a>
+                      
+                    </div>
+                </div>
+                <a href="#"><li>BUY TICKET</li></a>
+                <a href=""><li>BUY CONCESSIONS</li></a>
+                <a href=""><li>ABOUT US</li></a>
+                <a href=""><li onclick="active">CONTACT US</li></a>
+                <a href=""><li>GENESIS CINEMA DOUALA</li></a>
+            </ul>
+        </div>
+
+        <div class="last">
+            <Input class="datalist" list="datalist-cities" placeholder="English" style="text-align: center;"></Input>
+            <datalist id="datalist-cities">
+                <option value="English"><img src="uk logo.png" alt=""></option>
+                <option value="French"></option> 
+                
+            </datalist>
+        </div>
+        <div>
+            <select name="LANG" id="LANG">
+                <option value="English" selected><img src="/uk logo.png" alt="">English</option>
+                <option value="French"><img src="/uk logo.png" alt="">French</option>
+
+            </select>
+        </div>
+
+        <!-- <div class="dropdown">
+            <button class="dropbtn">  <li>BURGER</li>
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#link1">Link 1</a>
+    
+              <a href="#link2">Link 2</a>
+              
+              <a href="#link3">Link 3</a>
+              
+            </div>
+        </div> -->
+    </header>
+    <section>
+        <div>
+            <img class="mySlides" src="alien-romulus.jpg">
+            <img class="mySlides" src="borderlands-1.jpg">
+            <img class="mySlides" src="deadpool-x-wolverine-1.jpg">
+            <img class="mySlides" src="It-ends-with-us-1.jpg">
+        </div>
+    </section>
+    <section id="moVie-local">
+        <div style="border-bottom: 1px solid rgba(0, 0, 0, 0.358);">
+            <h3 class="local">
+                Select Cinema location
+            </h3>
+            <div class="redline"></div>
+        </div>
+        <div>
+            <ol class="movie-local">
+                <a href="#link3">MARYLAND MALL LAGOS</a>
+                <a href="#link1">FESTIVAL MALL FESTAC LAGOS</a>
+                <a href="#link2">GDC BENIN CITY</a>
+                <a href="#link3">WERRI DELTA MALL EFFURUN</a>
+                <a href="#link1">CEDDI PLAZA ABUJA</a>
+                <a href="#link2">FREEDOM WAY LEKKI</a>
+                <a href="#link3">GENESIS CENTER PORT HARCOURT</a>
+                <a href="#link1">ASABA MALL DELTA STATE</a>
+                <a href="#link2">OWERRI MALL OWERRI</a>
+                <a href="#link3">ABIA MALL UMUAHIA</a>
+            </ol>
+        </div>
+    </section>
+    <section id="tiMe-movie">
+        <h2>
+            Movie Time
+        </h2>
+        <div style="border-bottom: 1px solid rgba(0, 0, 0, 0.358);">
+            <div class="show">
+                <div>
+                    <ul style="border-bottom: 1px solid rgba(0, 0, 0, 0.358);">
+                        <a href="#"><li>NOW SHOWING</li></a>
+                        <a href="#"><li>COMING SOON</li></a>
+                        <a href="#"><li>ADVANCE SALES</li></a>
+                        <a href="#"><li>ALL PERFORMANCE</li></a>
+                    </ul>
+                    <div class="redline" style="margin-top: -21px;width: 177px;"></div>
+                </div>
+                <div class="show2">
+                    
+                    <img title="poster layout" src="/icons8-layout-50.png" alt="" >
+                    <img src="/icons8-menu-50.png" alt="" style="background-color: rgba(128, 128, 128, 0.449); margin-right: 5px; margin-left: 5px;">
+                    <img class="img3" src="/icons8-search-50.png" alt="">
+                    <input type="search" name="search" id="search" placeholder="Search">
+                </div>
+            </div>
+            <div class="float-img">
+                <img  src="/icons8-speech-bubble-50.png" alt="" title="Chat with us" style="width: 49px;">
+            </div>
+            <nav class="navbar" style=" margin-top: 60px; border-bottom: 1px solid rgba(249, 247, 247, 0.487);">
+                <ul>
+                    <li>
+                        <a href="">
+                            <div>MONDAY</div>
+                            <div>TODAY</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div>TUESDAY</div>
+                            <div>TOMORROW</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div>WEDNESDAY</div>
+                            <div>AUG 21ST</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div>THURSDAY</div>
+                            <div>AUG 22ND</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div>FRIDAY</div>
+                            <div>AUG 23RD</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div>SATURDAY</div>
+                            <div>AUG 24TH</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div>SUNDAY</div>
+                            <div>AUG 25TH</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <div>ALL SHOWS</div>
+                            <div style="text-align: start;">&#8744;</div>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <section>
+        <div class="moviepic">
+            <div class="moviepic1">
+                <div>
+                   <a href="#"> <img src="/2267.jpg" alt=""></a>
+                </div>
+                <div>
+                    <h2>
+                        DESPICABLE ME 4
+                    </h2>
+                    <P>
+                        Gru,Lucy,Margo,Edith,and Agnes Welcome a new member to the family, Gru Jr.who is intent on tormenting his dad. Gru faces a new nemesis is Maxime Le Mal and his...
+                    </P>
+                    <a href="" class="full"> <h4>FULL SYNOPSIS</h4></a>
+                    <a href=""><button>10:30 VIP</button></a>
+                    <ul>
+                        <li><i class='bx bx-film'></i></li>
+                        <li>100 MINS</li>
+                        <li class="G">G</li>
+                        <li>ANIMATION</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="moviepic1">
+                <div>
+                    <a href="#"><img src="/2275 (2).jpg" alt=""></a>
+                </div>
+                <div>
+                    <h2>
+                       DEADPOOL <span style="color: RED;">X</span> WOLVERINE
+                    </h2>
+                    <P>
+                        Wolverine is recovering from his injuries when he crosses paths with the loudmouth,Deadpool.They team up to defeat a common enemy.
+                    </P>
+                    <a href="" class="full"> <h4>FULL SYNOPSIS</h4></a>
+                    <div>
+                        <a href=""><button>12:00</button></a>
+                        <a href=""><button>16:25</button></a>
+                        <a href=""><button>20:55</button></a>
+                    </div>
+                   
+                    <ul>
+                        <li><i class='bx bx-film'></i></li>
+                        <li>125 MINS</li>
+                        <li class="G">12</li>
+                        <li>ACTION</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="moviepic1">
+                <div>
+                    <a href="#"><img src="/2281.jpg" alt=""></a>
+                </div>
+                <div>
+                    <h2>
+                        BORDERLANDS
+                    </h2>
+                    <P>
+                       Returning to her home planet,an infamous outlaw forms an unexpeected alliance with a team of unlikely heroes.Together, they battle allien monsters and dangerous bandits to ....
+                    </P>
+                    <a href=""class="full"> <h4>FULL SYNOPSIS</h4></a>
+                    <div>
+                        <a href=""><button>12:00</button></a>
+                        <a href=""><button>16:25</button></a>
+                        <a href=""><button>20:55</button></a>
+                    </div>
+                    <ul>
+                        <li><i class='bx bx-film'></i></li>
+                        <li>100 MINS</li>
+                        <li class="G">12A</li>
+                        <li>ADVENTURE</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="moviepic1">
+                <div>
+                    <a href=""><img src="/2283.png" alt=""></a>
+                </div>
+                <div>
+                    <h2>
+                        ALIEN:ROMULUS
+                    </h2>
+                    <P>
+                        While scavenging the deep ends of a derelict space station, a group of young space colonizers come face to face with the most terrifying life form in the universe.
+                    </P>
+                    <a href=""class="full"> <h4>FULL SYNOPSIS</h4></a>
+                    <div>
+                        <a href=""><button>12:00</button></a>
+                        <a href=""><button>16:25</button></a>
+                        <a href=""><button>20:55</button></a>
+                    </div>
+                    <ul>
+                        <li><i class='bx bx-film'></i></li>
+                        <li>120 MINS</li>
+                        <li class="G">15</li>
+                        <li>SCI-FI</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="moviepic1">
+                <div>
+                    <a href=""><img src="/2282.png" alt=""></a>
+                </div>
+                <div>
+                    <h2>
+                        IT ENDS WITH US
+                    </h2>
+                    <P>
+                       Adapted from the Colleen Hoover novel, Lily overcomes a traumatic childhood to embark on a new life. A chance meeting with a neurosurgeon sparks a connection but Lily begins.
+                    </P>
+                    <a href=""class="full"> <h4>FULL SYNOPSIS</h4></a>
+                    <div>
+                        <a href=""><button>12:00</button></a>
+                        <a href=""><button>16:25</button></a>
+                        <a href=""><button>20:55</button></a>
+                    </div>
+                    <ul>
+                        <li><i class='bx bx-film'></i></li>
+                        <li>130 MINS</li>
+                        <li class="G">15</li>
+                        <li>ROMANCE</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer">
+            <div>
+                <h2>
+                    CINEMA LOCATIONS
+                </h2>
+                
+                    <a href="#link3">MARYLAND MALL LAGOS</a>
+                    <a href="#link1">FESTIVAL MALL FESTAC LAGOS</a>
+                    <a href="#link2">GDC BENIN CITY</a>
+                    <a href="#link3">WERRI DELTA MALL EFFURUN</a>
+                    <a href="#link1">CEDDI PLAZA ABUJA</a>
+                    <a href="#link2">FREEDOM WAY LEKKI</a>
+                    <a href="#link3">GENESIS CENTER PORT HARCOURT</a>
+                    <a href="#link1">ASABA MALL DELTA STATE</a>
+                    <a href="#link2">OWERRI MALL OWERRI</a>
+                    <a href="#link3">ABIA MALL UMUAHIA</a>
+                
+            </div>
+            <div>
+                <h2>
+                    ABOUT GENESIS CINEMAS
+                </h2>
+                
+                    <a href="#link3">Advertising</a>
+                    <a href="#link1">Bulk Ticket / Gift Cards</a>
+                    <a href="#link2">Big screen Experience</a>
+                    <a href="#link3">Careers</a>
+                
+            </div>
+            <div>
+                <h2>
+                    GET IN TOUCH
+                </h2>
+                
+                    <a href="#link2">FAQs & contact us</a>
+                    <a href="#link3">Give us feedback</a>
+                
+            </div>
+            <div>
+                <h2>
+                    CONNECT WITH US
+                </h2>
+                <div class="home-sci" style=" color: white;">
+                    <a href="#"><i class='bx bxl-facebook' ></i>facebook</a>
+                    <a href="#"><i class='bx bxl-twitter' ></i>twitter </a>
+                    <a href="#"><i class='bx bxl-linkedin'></i>linkedin</a>
+                    <a href="#"><i class='bx bxl-instagram' ></i>instagram</a>
+                    <a href="#"><i class='bx bxl-whatsapp'></i>whatsapp</a>
+                    <a href="#">Developer@Genesis</a>
+                </div>
+                <h2>
+                    STAFF EMAIL ACCESS
+                </h2>
+                <a href="#link3">Staff Email login >></a>
+            </div>
+        </div>
+
+        <p>2022&copy;Genesis Cinemas/Ticketing and Website by GENEXIX</p>
+        <div class="endpart-icon" style="background-color: whit;">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+       
+    </footer>
+   
+    <script>
+        // var slideIndex = 1;
+        // showDivs(slideIndex);
+
+        // function plusDivs(n) {
+        // showDivs(slideIndex += n);
+        // }
+
+        // function showDivs(n) {
+        // var i;
+        // var x = document.getElementsByClassName("mySlides");
+        // if (n > x.length) {slideIndex = 1}
+        // if (n < 1) {slideIndex = x.length} ;
+        // for (i = 0; i < x.length; i++) {
+        //     x[i].style.display = "none";
+        // }
+        // x[slideIndex-1].style.display = "block";
+        // }
+
+        var slideIndex = 0;
+        carousel();
+
+        function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {slideIndex = 1}
+        x[slideIndex-1].style.display = "block";
+        setTimeout(carousel, 4000); // Change image every 4 seconds
+        }
+        {
+            function focus(){
+                document.getElementById('hoMe').style.borderBottom="1px solid red"
+            }
+        }
+    </script>
+</body>
+</html>
